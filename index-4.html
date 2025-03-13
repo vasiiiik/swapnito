@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Výměnný Trh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Výměnný Trh</h1>
+        <nav>
+            <a href="#overview">Přehled</a>
+            <a href="#how-it-works">Jak to funguje</a>
+            <a href="#offers">Nabídky</a>
+            <a href="#requests">Poptávky</a>
+            <a href="#about-us">O nás</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <section id="overview">
+            <h2>Přehled Výměnného Trhu</h2>
+            <p>Výměnný trh je místo, kde můžete vyměnit věci, které nepotřebujete, za věci, které potřebujete. Vytvořte nabídku nebo reagujte na existující nabídky a získejte to, co potřebujete.</p>
+            <img src="images/market-overview.jpg" alt="Přehled Výměnného Trhu">
+        </section>
+        <section id="how-it-works">
+            <h2>Jak to funguje</h2>
+            <p>1. Zaregistrujte se nebo se přihlaste.</p>
+            <p>2. Vytvořte nabídku s popisem věci, kterou chcete vyměnit.</p>
+            <p>3. Prohlédněte si dostupné nabídky a reagujte na ty, které vás zajímají.</p>
+            <p>4. Dohodněte se s druhou stranou na podmínkách výměny.</p>
+            <p>5. Vyměňte si věci a užijte si výhody výměnného trhu.</p>
+        </section>
+        <section id="offers">
+            <h2>Nabídky</h2>
+            <div class="offer">
+                <h3>Kniha "Cesta kolem světa"</h3>
+                <p>Stav: Jako nová</p>
+                <p>Výměna za: Kniha "Hobit"</p>
+                <button>Kontaktovat</button>
+            </div>
+            <div class="offer">
+                <h3>Chytrý telefon Samsung Galaxy S10</h3>
+                <p>Stav: Použitý, dobrý</p>
+                <p>Výměna za: Tablet</p>
+                <button>Kontaktovat</button>
+            </div>
+            <button class="add-offer">Přidat nabídku</button>
+        </section>
+        <section id="requests">
+            <h2>Poptávky</h2>
+            <div class="request">
+                <h3>Hledám: Horské kolo</h3>
+                <p>Stav: Jako nové</p>
+                <p>Nabízím: Notebook Lenovo</p>
+                <button>Kontaktovat</button>
+            </div>
+            <div class="request">
+                <h3>Hledám: Kuchyňský robot</h3>
+                <p>Stav: Funkční</p>
+                <p>Nabízím: Fotoaparát Nikon</p>
+                <button>Kontaktovat</button>
+            </div>
+            <button class="add-request">Přidat poptávku</button>
+        </section>
+        <section id="about-us">
+            <h2>O nás</h2>
+            <p>Jsme tým nadšenců, kteří věří v udržitelnost a efektivní využívání zdrojů. Naším cílem je vytvořit platformu, kde lidé mohou snadno vyměňovat věci, které nepotřebují, za věci, které potřebují.</p>
+            <h3>Naše mise a hodnoty</h3>
+            <ul>
+                <li>Podpora udržitelnosti</li>
+                <li>Efektivní využívání zdrojů</li>
+                <li>Budování komunity</li>
+                <li>Bezpečnost a důvěra</li>
+            </ul>
+            <h3>Náš tým</h3>
+            <p>Naši členové týmu jsou zkušení profesionálové v oblasti technologií, marketingu a zákaznické podpory. Jsme tu, abychom vám pomohli s jakýmikoli dotazy nebo problémy.</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Jméno:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Zpráva:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Odeslat</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Výměnný Trh. Všechna práva vyhrazena.</p>
+    </footer>
+</body>
+</html>
